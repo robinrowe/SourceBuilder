@@ -1,0 +1,16 @@
+# glasgow/lib/CmakeLists.txt
+set(NAME "lib")
+project(${NAME})
+message("--- Building " ${NAME} " ---")
+
+include(DownloadProject/DownloadProject.cmake)
+if(WIN32)
+include(../cmake/ZLib.cmake)
+endif()
+#include(../cmake/NASM.cmake)
+include(../cmake/LibPNG.cmake)
+include(../cmake/LibJPEG.cmake)
+include(../cmake/FLTK.cmake)
+#include(../cmake/LibTIFF.cmake)
+#include(../cmake/OpenEXR.cmake)
+include(../cmake/LibUnistd.cmake)
