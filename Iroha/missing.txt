@@ -1,0 +1,49 @@
+-- Could NOT find gtest (missing: gtest_INCLUDE_DIR gtest_LIBRARY gtest_MAIN_LIBRARY gmock_INCLUDE_DIR gmock_LIBRARY gmock_MAIN_LIBRARY)
+-- Could NOT find spdlog (missing: spdlog_INCLUDE_DIR)
+-- Could NOT find protobuf (missing: protobuf_INCLUDE_DIR protobuf_LIBRARY protoc_EXECUTABLE)
+-- Could NOT find grpc (missing: grpc_LIBRARY grpc_INCLUDE_DIR gpr_LIBRARY grpc_CPP_PLUGIN)
+-- Found Git: C:/Program Files/Git/mingw64/bin/git.exe (found version "2.16.1.windows.1")
+-- Could NOT find rapidjson (missing: rapidjson_INCLUDE_DIR)
+-- Could NOT find pq (missing: pq_LIBRARY)
+-- Could NOT find pqxx (missing: pqxx_INCLUDE_DIR pqxx_LIBRARY)
+-- Could NOT find gflags (missing: gflags_INCLUDE_DIR gflags_LIBRARY)
+-- Could NOT find rxcpp (missing: rxcpp_INCLUDE_DIR)
+-- Could NOT find tbb (missing: tbb_INCLUDE_DIR tbb_LIBRARY)
+CMake Warning at C:/Program Files/CMake/share/cmake-3.10/Modules/FindBoost.cmake:567 (message):
+  Imported targets and dependency information not available for Boost version
+  (all versions older than 1.33)
+Call Stack (most recent call first):
+  C:/Program Files/CMake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  C:/Program Files/CMake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  cmake/dependencies.cmake:70 (find_package)
+  CMakeLists.txt:115 (include)
+
+
+CMake Warning at C:/Program Files/CMake/share/cmake-3.10/Modules/FindBoost.cmake:567 (message):
+  Imported targets and dependency information not available for Boost version
+  (all versions older than 1.33)
+Call Stack (most recent call first):
+  C:/Program Files/CMake/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  C:/Program Files/CMake/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
+  cmake/dependencies.cmake:70 (find_package)
+  CMakeLists.txt:115 (include)
+
+
+CMake Error at C:/Program Files/CMake/share/cmake-3.10/Modules/FindBoost.cmake:1928 (message):
+  Unable to find the requested Boost libraries.
+
+  Unable to find the Boost header files.  Please set BOOST_ROOT to the root
+  directory containing Boost or BOOST_INCLUDEDIR to the directory containing
+  Boost's headers.
+Call Stack (most recent call first):
+  cmake/dependencies.cmake:70 (find_package)
+  CMakeLists.txt:115 (include)
+
+
+-- Could NOT find ed25519 (missing: ed25519_INCLUDE_DIR ed25519_LIBRARY)
+-- Configuring incomplete, errors occurred!
+See also "C:/Code/github/iroha/build/CMakeFiles/CMakeOutput.log".
+See also "C:/Code/github/iroha/build/CMakeFiles/CMakeError.log".
+
+rower@Spectre MINGW64 /c/code/github/iroha/build (master)
+$
